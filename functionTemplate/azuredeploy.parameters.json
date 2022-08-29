@@ -13,6 +13,9 @@
       },
       "packageUri": {
         "value": "1"
+      },
+      "location": {
+        "value": "${{AZ_ARM_ENV_LOCATION}}"
       }
   }
 }
