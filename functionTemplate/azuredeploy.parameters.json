@@ -1,4 +1,4 @@
-{
+	  {
   "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
   "contentVersion": "1.0.0.0",
   "parameters": {
@@ -16,6 +16,14 @@
       },
       "location": {
         "value": "${{AZ_ARM_ENV_LOCATION}}"
+      },
+      "appInsightsLocation": {
+       "reference": {
+        "keyVault": {
+          "id": "/subscriptions/69207d3a-06c2-4b03-a711-5cb2975500eb/resourceGroups/keyVaultResrcGrp/providers/Microsoft.KeyVault/vaults/keyvault2508"
+        },
+        "secretName": "appInsightsLocation"
+      }
       }
   }
 }
