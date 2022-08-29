@@ -3,10 +3,10 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
        "functionAppName": {
-        "value": "function0124087"
+        "value": {{functionAppName}}
       },
 	  "functionWorkerRuntime": {
-        "value": "java"
+        "value": {{functionWorkerRuntime}}
       },
 	    "linuxFxVersion": {
         "value": "JAVA|8-jre8"
