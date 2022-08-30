@@ -20,7 +20,7 @@
       "appInsightsLocation": {
        "reference": {
         "keyVault": {
-          "id": "/subscriptions/${{AZURESP_FDAZACCT_SUBSCRIPTION_ID}}/resourceGroups/keyVaultResrcGrp/providers/Microsoft.KeyVault/vaults/keyvault2508"
+          "id": "/subscriptions/${{SP_FDAZACCT_SUBSCRIPTION_ID}}/resourceGroups/keyVaultResrcGrp/providers/Microsoft.KeyVault/vaults/keyvault2508"
         },
         "secretName": "appInsightsLocation"
       }
