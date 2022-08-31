@@ -18,7 +18,7 @@
         "value": "${{AZ_ARM_ENV_LOCATION}}"
       },
 	"aaa": {
-        "value": "${{AZURESP_FDAZACCT_SUBSCRIPTION_ID}}"
+        "value": "${{FDAZACCT_SUBSCRIPTION_ID}}"
       },
       "appInsightsLocation": {
        "reference": {
